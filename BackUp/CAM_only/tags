@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IPU_PIX_FMT_ABGR32	mxc_v4l2_overlay.c	68;"	d	file:
+IPU_PIX_FMT_BGR24	mxc_v4l2_overlay.c	62;"	d	file:
+IPU_PIX_FMT_BGR32	mxc_v4l2_overlay.c	64;"	d	file:
+IPU_PIX_FMT_BGRA32	mxc_v4l2_overlay.c	65;"	d	file:
+IPU_PIX_FMT_RGB24	mxc_v4l2_overlay.c	63;"	d	file:
+IPU_PIX_FMT_RGB32	mxc_v4l2_overlay.c	66;"	d	file:
+IPU_PIX_FMT_RGB332	mxc_v4l2_overlay.c	58;"	d	file:
+IPU_PIX_FMT_RGB555	mxc_v4l2_overlay.c	59;"	d	file:
+IPU_PIX_FMT_RGB565	mxc_v4l2_overlay.c	60;"	d	file:
+IPU_PIX_FMT_RGB666	mxc_v4l2_overlay.c	61;"	d	file:
+IPU_PIX_FMT_RGBA32	mxc_v4l2_overlay.c	67;"	d	file:
+TFAIL	mxc_v4l2_overlay.c	52;"	d	file:
+TPASS	mxc_v4l2_overlay.c	53;"	d	file:
+alpha_buf0	mxc_v4l2_overlay.c	/^char *alpha_buf0 = NULL;$/;"	v
+alpha_buf1	mxc_v4l2_overlay.c	/^char *alpha_buf1 = NULL;$/;"	v
+alpha_buf_size	mxc_v4l2_overlay.c	/^int alpha_buf_size = 0;$/;"	v
+alpha_fb_h	mxc_v4l2_overlay.c	/^int alpha_fb_w = 0, alpha_fb_h = 0;$/;"	v
+alpha_fb_w	mxc_v4l2_overlay.c	/^int alpha_fb_w = 0, alpha_fb_h = 0;$/;"	v
+ctrl_c_handler	mxc_v4l2_overlay.c	/^void ctrl_c_handler(int signum, siginfo_t *info, void *myact)$/;"	f
+ctrl_c_rev	mxc_v4l2_overlay.c	/^int ctrl_c_rev = 0;$/;"	v
+fd_v4l	mxc_v4l2_overlay.c	/^int fd_v4l = 0;$/;"	v
+fill_alpha_buffer	mxc_v4l2_overlay.c	/^void fill_alpha_buffer(char *alpha_buf, int left, int top,$/;"	f
+g_alpha_mode	mxc_v4l2_overlay.c	/^int g_alpha_mode = 0;$/;"	v
+g_camera_color	mxc_v4l2_overlay.c	/^int g_camera_color = 0;$/;"	v
+g_camera_framerate	mxc_v4l2_overlay.c	/^int g_camera_framerate = 30;$/;"	v
+g_capture_mode	mxc_v4l2_overlay.c	/^int g_capture_mode = 0;$/;"	v
+g_display_height	mxc_v4l2_overlay.c	/^int g_display_height = 320;$/;"	v
+g_display_lcd	mxc_v4l2_overlay.c	/^int g_display_lcd = 0;$/;"	v
+g_display_left	mxc_v4l2_overlay.c	/^int g_display_left = 0;$/;"	v
+g_display_top	mxc_v4l2_overlay.c	/^int g_display_top = 0;$/;"	v
+g_display_width	mxc_v4l2_overlay.c	/^int g_display_width = 240;$/;"	v
+g_fd_fb_fg	mxc_v4l2_overlay.c	/^int g_fd_fb_fg = 0;$/;"	v
+g_overlay	mxc_v4l2_overlay.c	/^int g_overlay = 0;$/;"	v
+g_rotate	mxc_v4l2_overlay.c	/^int g_rotate = 0;$/;"	v
+g_sensor_height	mxc_v4l2_overlay.c	/^int g_sensor_height = 480;$/;"	v
+g_sensor_left	mxc_v4l2_overlay.c	/^int g_sensor_left = 0;$/;"	v
+g_sensor_top	mxc_v4l2_overlay.c	/^int g_sensor_top = 0;$/;"	v
+g_sensor_width	mxc_v4l2_overlay.c	/^int g_sensor_width = 640;$/;"	v
+g_timeout	mxc_v4l2_overlay.c	/^int g_timeout = 3600;$/;"	v
+ipu_fourcc	mxc_v4l2_overlay.c	55;"	d	file:
+loc_alpha_phy_addr0	mxc_v4l2_overlay.c	/^unsigned long loc_alpha_phy_addr0;$/;"	v
+loc_alpha_phy_addr1	mxc_v4l2_overlay.c	/^unsigned long loc_alpha_phy_addr1;$/;"	v
+main	mxc_v4l2_overlay.c	/^main(int argc, char **argv)$/;"	f
+mxc_v4l_overlay_setup	mxc_v4l2_overlay.c	/^mxc_v4l_overlay_setup(struct v4l2_format *fmt)$/;"	f
+mxc_v4l_overlay_test	mxc_v4l2_overlay.c	/^mxc_v4l_overlay_test(int timeout)$/;"	f
+print_pixelformat	mxc_v4l2_overlay.c	/^static void print_pixelformat(char *prefix, int val)$/;"	f	file:
+process_cmdline	mxc_v4l2_overlay.c	/^int process_cmdline(int argc, char **argv)$/;"	f
+v4l_device	mxc_v4l2_overlay.c	/^char v4l_device[100] = "\/dev\/video0";$/;"	v

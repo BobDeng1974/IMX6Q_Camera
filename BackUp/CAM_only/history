@@ -1,0 +1,11 @@
+edit KDIR IMX6Q -> IMX6Q0713 is OK
+but when i test 'make' is failed because asm/xxxx.h is need to compile 
+thus i replaced source at kernel/driver/media/platform/mxc/capture/.
+
+Makefile edit for include header file ex)sys/*.h ..etc
+add header file in /include that 'version.h','mxcfb.h' 
+version.h is define /kernel/Makefile that version info
+mxcfb.h is defined that /include generated/uapi/linux/.
+/asm directory is copy on /kernel_imx/arch/arm/include/asm
+
+end OK!

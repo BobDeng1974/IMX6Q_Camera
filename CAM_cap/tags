@@ -1,0 +1,268 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCH	Makefile	/^export ARCH = arm$/;"	m
+AUTO_UPDATE_MODE_AUTOMATIC_MODE	include/mxcfb.h	83;"	d
+AUTO_UPDATE_MODE_REGION_MODE	include/mxcfb.h	82;"	d
+CLEAR	test.c	28;"	d	file:
+CROSS_COMPILE	Makefile	/^export CROSS_COMPILE=arm-poky-linux-gnueabi-$/;"	m
+EPDC_FLAG_ENABLE_INVERSION	include/mxcfb.h	96;"	d
+EPDC_FLAG_FORCE_MONOCHROME	include/mxcfb.h	97;"	d
+EPDC_FLAG_GROUP_UPDATE	include/mxcfb.h	101;"	d
+EPDC_FLAG_TEST_COLLISION	include/mxcfb.h	100;"	d
+EPDC_FLAG_USE_ALT_BUFFER	include/mxcfb.h	99;"	d
+EPDC_FLAG_USE_CMAP	include/mxcfb.h	98;"	d
+EPDC_FLAG_USE_DITHERING_Y1	include/mxcfb.h	102;"	d
+EPDC_FLAG_USE_DITHERING_Y4	include/mxcfb.h	103;"	d
+FB_ACCEL_DOUBLE_FLAG	include/mxcfb.h	40;"	d
+FB_ACCEL_TRIPLE_FLAG	include/mxcfb.h	39;"	d
+FB_POWERDOWN_DISABLE	include/mxcfb.h	105;"	d
+FB_SYNC_CLK_IDLE_EN	include/mxcfb.h	36;"	d
+FB_SYNC_CLK_LAT_FALL	include/mxcfb.h	34;"	d
+FB_SYNC_DATA_INVERT	include/mxcfb.h	35;"	d
+FB_SYNC_OE_LOW_ACT	include/mxcfb.h	33;"	d
+FB_SYNC_SHARP_MODE	include/mxcfb.h	37;"	d
+FB_SYNC_SWAP_RGB	include/mxcfb.h	38;"	d
+GRAYSCALE_4BIT	include/mxcfb.h	79;"	d
+GRAYSCALE_4BIT_INVERTED	include/mxcfb.h	80;"	d
+GRAYSCALE_8BIT	include/mxcfb.h	77;"	d
+GRAYSCALE_8BIT_INVERTED	include/mxcfb.h	78;"	d
+INCDIR	Makefile	/^INCDIR  = 	\/opt\/poky\/1.5.1\/sysroots\/x86_64-pokysdk-linux\/usr\/include\/$/;"	m
+IO_METHOD_MMAP	test.c	/^        IO_METHOD_MMAP,$/;"	e	enum:io_method	file:
+IO_METHOD_READ	test.c	/^        IO_METHOD_READ,$/;"	e	enum:io_method	file:
+IO_METHOD_USERPTR	test.c	/^        IO_METHOD_USERPTR,$/;"	e	enum:io_method	file:
+IPU_PIX_FMT_ABGR32	mxc_v4l2_overlay.c	72;"	d	file:
+IPU_PIX_FMT_BGR24	mxc_v4l2_overlay.c	66;"	d	file:
+IPU_PIX_FMT_BGR32	mxc_v4l2_overlay.c	68;"	d	file:
+IPU_PIX_FMT_BGRA32	mxc_v4l2_overlay.c	69;"	d	file:
+IPU_PIX_FMT_RGB24	mxc_v4l2_overlay.c	67;"	d	file:
+IPU_PIX_FMT_RGB32	mxc_v4l2_overlay.c	70;"	d	file:
+IPU_PIX_FMT_RGB332	mxc_v4l2_overlay.c	62;"	d	file:
+IPU_PIX_FMT_RGB555	mxc_v4l2_overlay.c	63;"	d	file:
+IPU_PIX_FMT_RGB565	mxc_v4l2_overlay.c	64;"	d	file:
+IPU_PIX_FMT_RGB666	mxc_v4l2_overlay.c	65;"	d	file:
+IPU_PIX_FMT_RGBA32	mxc_v4l2_overlay.c	71;"	d	file:
+KDIR	Makefile	/^KDIR	=\/root\/IMX6Q0713\/kernel_imx\/include\/	$/;"	m
+KERNEL_VERSION	include/version.h	2;"	d
+LINUX_VERSION_CODE	include/version.h	1;"	d
+MDIR	Makefile	/^MDIR	=  .\/include\/$/;"	m
+MXCFB_CSC_UPDATE	include/mxcfb.h	162;"	d
+MXCFB_DISABLE_EPDC_ACCESS	include/mxcfb.h	174;"	d
+MXCFB_ENABLE_EPDC_ACCESS	include/mxcfb.h	175;"	d
+MXCFB_GET_DIFMT	include/mxcfb.h	159;"	d
+MXCFB_GET_FB_BLANK	include/mxcfb.h	160;"	d
+MXCFB_GET_FB_IPU_CHAN	include/mxcfb.h	154;"	d
+MXCFB_GET_FB_IPU_DI	include/mxcfb.h	158;"	d
+MXCFB_GET_PWRDOWN_DELAY	include/mxcfb.h	171;"	d
+MXCFB_GET_WORK_BUFFER	include/mxcfb.h	173;"	d
+MXCFB_SEND_UPDATE	include/mxcfb.h	168;"	d
+MXCFB_SET_AUTO_UPDATE_MODE	include/mxcfb.h	167;"	d
+MXCFB_SET_CLR_KEY	include/mxcfb.h	152;"	d
+MXCFB_SET_DIFMT	include/mxcfb.h	161;"	d
+MXCFB_SET_GAMMA	include/mxcfb.h	157;"	d
+MXCFB_SET_GBL_ALPHA	include/mxcfb.h	151;"	d
+MXCFB_SET_LOC_ALPHA	include/mxcfb.h	155;"	d
+MXCFB_SET_LOC_ALP_BUF	include/mxcfb.h	156;"	d
+MXCFB_SET_OVERLAY_POS	include/mxcfb.h	153;"	d
+MXCFB_SET_PWRDOWN_DELAY	include/mxcfb.h	170;"	d
+MXCFB_SET_TEMPERATURE	include/mxcfb.h	166;"	d
+MXCFB_SET_UPDATE_SCHEME	include/mxcfb.h	172;"	d
+MXCFB_SET_WAVEFORM_MODES	include/mxcfb.h	165;"	d
+MXCFB_WAIT_FOR_UPDATE_COMPLETE	include/mxcfb.h	169;"	d
+MXCFB_WAIT_FOR_VSYNC	include/mxcfb.h	150;"	d
+MXC_V4L2_CAPTURE_NUM_INPUTS	mxc_v4l2_capture.c	46;"	d	file:
+MXC_V4L2_CAPTURE_NUM_OUTPUTS	mxc_v4l2_capture.c	45;"	d	file:
+PATH	Makefile	/^export PATH=\/opt\/poky\/1.5.1\/sysroots\/x86_64-pokysdk-linux\/usr\/bin\/arm-poky-linux-gnueabi\/:\/opt\/poky\/1.5.1\/sysroots\/cortexa9hf-vfp-neon-poky-linux-gnueabi\/usr\/include\/:$PATH$/;"	m
+TEMP_USE_AMBIENT	include/mxcfb.h	94;"	d
+TFAIL	mxc_v4l2_overlay.c	56;"	d	file:
+TPASS	mxc_v4l2_overlay.c	57;"	d	file:
+TV_NOT_LOCKED	mxc_v4l2_capture.c	/^ 	TV_NOT_LOCKED,		\/*!< Not locked on a signal. *\/ $/;"	e	enum:__anon1	file:
+TV_NTSC	mxc_v4l2_capture.c	/^ 	TV_NTSC = 0,		\/*!< Locked on (M) NTSC video signal. *\/ $/;"	e	enum:__anon1	file:
+TV_PAL	mxc_v4l2_capture.c	/^ 	TV_PAL,			\/*!< (B, G, H, I, N)PAL video signal. *\/ $/;"	e	enum:__anon1	file:
+TV_STD_MAX	mxc_v4l2_capture.c	107;"	d	file:
+UPDATE_MODE_FULL	include/mxcfb.h	90;"	d
+UPDATE_MODE_PARTIAL	include/mxcfb.h	89;"	d
+UPDATE_SCHEME_QUEUE	include/mxcfb.h	86;"	d
+UPDATE_SCHEME_QUEUE_AND_MERGE	include/mxcfb.h	87;"	d
+UPDATE_SCHEME_SNAPSHOT	include/mxcfb.h	85;"	d
+V4L2_PIX_FMT_H264	test.c	31;"	d	file:
+WAVEFORM_MODE_AUTO	include/mxcfb.h	92;"	d
+__ASM_ARCH_MXCFB_H__	include/mxcfb.h	29;"	d
+active_height	mxc_v4l2_capture.c	/^ 	u16 active_height;	\/*!< Active height. *\/ $/;"	m	struct:__anon2	file:
+active_left	mxc_v4l2_capture.c	/^ 	u16 active_left;	\/*!< Active left. *\/ $/;"	m	struct:__anon2	file:
+active_top	mxc_v4l2_capture.c	/^ 	u16 active_top;		\/*!< Active top. *\/ $/;"	m	struct:__anon2	file:
+active_width	mxc_v4l2_capture.c	/^ 	u16 active_width;	\/*!< Active width. *\/ $/;"	m	struct:__anon2	file:
+alpha	include/mxcfb.h	/^	int alpha;$/;"	m	struct:mxcfb_gbl_alpha
+alpha_buf0	mxc_v4l2_overlay.c	/^char *alpha_buf0 = NULL;$/;"	v
+alpha_buf1	mxc_v4l2_overlay.c	/^char *alpha_buf1 = NULL;$/;"	v
+alpha_buf_size	mxc_v4l2_overlay.c	/^int alpha_buf_size = 0;$/;"	v
+alpha_fb_h	mxc_v4l2_overlay.c	/^int alpha_fb_w = 0, alpha_fb_h = 0;$/;"	v
+alpha_fb_w	mxc_v4l2_overlay.c	/^int alpha_fb_w = 0, alpha_fb_h = 0;$/;"	v
+alpha_in_pixel	include/mxcfb.h	/^	int alpha_in_pixel;$/;"	m	struct:mxcfb_loc_alpha
+alpha_phy_addr0	include/mxcfb.h	/^	unsigned long alpha_phy_addr0;$/;"	m	struct:mxcfb_loc_alpha
+alpha_phy_addr1	include/mxcfb.h	/^	unsigned long alpha_phy_addr1;$/;"	m	struct:mxcfb_loc_alpha
+alt_buffer_data	include/mxcfb.h	/^	struct mxcfb_alt_buffer_data alt_buffer_data;$/;"	m	struct:mxcfb_update_data	typeref:struct:mxcfb_update_data::mxcfb_alt_buffer_data
+alt_update_region	include/mxcfb.h	/^	struct mxcfb_rect alt_update_region;	\/* region within buffer to update *\/$/;"	m	struct:mxcfb_alt_buffer_data	typeref:struct:mxcfb_alt_buffer_data::mxcfb_rect
+buffer	test.c	/^struct buffer {$/;"	s	file:
+buffers	test.c	/^struct buffer          *buffers;$/;"	v	typeref:struct:buffer
+camera_callback	mxc_v4l2_capture.c	/^ static void camera_callback(u32 mask, void *dev) $/;"	f	file:
+camera_exit	mxc_v4l2_capture.c	/^ module_exit(camera_exit); $/;"	v
+camera_exit	mxc_v4l2_capture.c	/^ static void __exit camera_exit(void) $/;"	f	file:
+camera_init	mxc_v4l2_capture.c	/^ module_init(camera_init); $/;"	v
+camera_init	mxc_v4l2_capture.c	/^ static __init int camera_init(void) $/;"	f	file:
+camera_platform_release	mxc_v4l2_capture.c	/^ static void camera_platform_release(struct device *device) $/;"	f	file:
+camera_power	mxc_v4l2_capture.c	/^ static u8 camera_power(cam_data *cam, bool cameraOn) $/;"	f	file:
+close_device	test.c	/^static void close_device(void)$/;"	f	file:
+collision_test	include/mxcfb.h	/^	__u32 collision_test;$/;"	m	struct:mxcfb_update_marker_data
+color_key	include/mxcfb.h	/^	__u32 color_key;$/;"	m	struct:mxcfb_color_key
+constk	include/mxcfb.h	/^	int constk[16];$/;"	m	struct:mxcfb_gamma
+ctrl_c_handler	mxc_v4l2_overlay.c	/^void ctrl_c_handler(int signum, siginfo_t *info, void *myact)$/;"	f
+ctrl_c_rev	mxc_v4l2_overlay.c	/^int ctrl_c_rev = 0;$/;"	v
+dev_name	test.c	/^static char            *dev_name;$/;"	v	file:
+enable	include/mxcfb.h	/^	int enable;$/;"	m	struct:mxcfb_color_key
+enable	include/mxcfb.h	/^	int enable;$/;"	m	struct:mxcfb_gamma
+enable	include/mxcfb.h	/^	int enable;$/;"	m	struct:mxcfb_gbl_alpha
+enable	include/mxcfb.h	/^	int enable;$/;"	m	struct:mxcfb_loc_alpha
+errno_exit	test.c	/^static void errno_exit(const char *s)$/;"	f	file:
+fd	test.c	/^static int              fd = -1;$/;"	v	file:
+fd_v4l	mxc_v4l2_overlay.c	/^int fd_v4l = 0;$/;"	v
+fill_alpha_buffer	mxc_v4l2_overlay.c	/^void fill_alpha_buffer(char *alpha_buf, int left, int top,$/;"	f
+flags	include/mxcfb.h	/^	unsigned int flags;$/;"	m	struct:mxcfb_update_data
+force_format	test.c	/^static int              force_format;$/;"	v	file:
+frame_count	test.c	/^static int              frame_count = 200;$/;"	v	file:
+frame_number	test.c	/^static int              frame_number = 0;$/;"	v	file:
+g_alpha_mode	mxc_v4l2_overlay.c	/^int g_alpha_mode = 0;$/;"	v
+g_cam	mxc_v4l2_capture.c	/^ static cam_data *g_cam; $/;"	v	file:
+g_camera_color	mxc_v4l2_overlay.c	/^int g_camera_color = 0;$/;"	v
+g_camera_framerate	mxc_v4l2_overlay.c	/^int g_camera_framerate = 30;$/;"	v
+g_capture_mode	mxc_v4l2_overlay.c	/^int g_capture_mode = 0;$/;"	v
+g_display_height	mxc_v4l2_overlay.c	/^int g_display_height = 320;$/;"	v
+g_display_lcd	mxc_v4l2_overlay.c	/^int g_display_lcd = 0;$/;"	v
+g_display_left	mxc_v4l2_overlay.c	/^int g_display_left = 0;$/;"	v
+g_display_top	mxc_v4l2_overlay.c	/^int g_display_top = 0;$/;"	v
+g_display_width	mxc_v4l2_overlay.c	/^int g_display_width = 240;$/;"	v
+g_fd_fb_fg	mxc_v4l2_overlay.c	/^int g_fd_fb_fg = 0;$/;"	v
+g_overlay	mxc_v4l2_overlay.c	/^int g_overlay = 0;$/;"	v
+g_rotate	mxc_v4l2_overlay.c	/^int g_rotate = 0;$/;"	v
+g_sensor_height	mxc_v4l2_overlay.c	/^int g_sensor_height = 480;$/;"	v
+g_sensor_left	mxc_v4l2_overlay.c	/^int g_sensor_left = 0;$/;"	v
+g_sensor_top	mxc_v4l2_overlay.c	/^int g_sensor_top = 0;$/;"	v
+g_sensor_width	mxc_v4l2_overlay.c	/^int g_sensor_width = 640;$/;"	v
+g_timeout	mxc_v4l2_overlay.c	/^int g_timeout = 3600;$/;"	v
+height	include/mxcfb.h	/^	__u32 height;	\/* height of entire buffer *\/$/;"	m	struct:mxcfb_alt_buffer_data
+height	include/mxcfb.h	/^	__u32 height;$/;"	m	struct:mxcfb_rect
+init_camera_struct	mxc_v4l2_capture.c	/^ static void init_camera_struct(cam_data *cam) $/;"	f	file:
+init_device	test.c	/^static void init_device(void)$/;"	f	file:
+init_mmap	test.c	/^static void init_mmap(void)$/;"	f	file:
+init_read	test.c	/^static void init_read(unsigned int buffer_size)$/;"	f	file:
+init_userp	test.c	/^static void init_userp(unsigned int buffer_size)$/;"	f	file:
+io	test.c	/^static enum io_method   io = IO_METHOD_MMAP;$/;"	v	typeref:enum:io_method	file:
+io_method	test.c	/^enum io_method {$/;"	g	file:
+ipu_fourcc	mxc_v4l2_overlay.c	59;"	d	file:
+left	include/mxcfb.h	/^	__u32 left;$/;"	m	struct:mxcfb_rect
+length	test.c	/^        size_t  length;$/;"	m	struct:buffer	file:
+loc_alpha_phy_addr0	mxc_v4l2_overlay.c	/^unsigned long loc_alpha_phy_addr0;$/;"	v
+loc_alpha_phy_addr1	mxc_v4l2_overlay.c	/^unsigned long loc_alpha_phy_addr1;$/;"	v
+long_options	test.c	/^long_options[] = {$/;"	v	typeref:struct:option	file:
+main	mxc_v4l2_overlay.c	/^				main(int argc, char **argv)$/;"	f
+main	test.c	/^int main(int argc, char **argv)$/;"	f
+mainloop	test.c	/^static void mainloop(void)$/;"	f	file:
+mode_du	include/mxcfb.h	/^	int mode_du;$/;"	m	struct:mxcfb_waveform_modes
+mode_gc16	include/mxcfb.h	/^	int mode_gc16;$/;"	m	struct:mxcfb_waveform_modes
+mode_gc32	include/mxcfb.h	/^	int mode_gc32;$/;"	m	struct:mxcfb_waveform_modes
+mode_gc4	include/mxcfb.h	/^	int mode_gc4;$/;"	m	struct:mxcfb_waveform_modes
+mode_gc8	include/mxcfb.h	/^	int mode_gc8;$/;"	m	struct:mxcfb_waveform_modes
+mode_init	include/mxcfb.h	/^	int mode_init;$/;"	m	struct:mxcfb_waveform_modes
+mxc_allocate_frame_buf	mxc_v4l2_capture.c	/^ static int mxc_allocate_frame_buf(cam_data *cam, int count) $/;"	f	file:
+mxc_capture_inputs	mxc_v4l2_capture.c	/^ static struct v4l2_input mxc_capture_inputs[MXC_V4L2_CAPTURE_NUM_INPUTS] = { $/;"	v	typeref:struct:v4l2_input	file:
+mxc_capture_outputs	mxc_v4l2_capture.c	/^ static struct v4l2_output mxc_capture_outputs[MXC_V4L2_CAPTURE_NUM_OUTPUTS] = { $/;"	v	typeref:struct:v4l2_output	file:
+mxc_free_frame_buf	mxc_v4l2_capture.c	/^ static int mxc_free_frame_buf(cam_data *cam) $/;"	f	file:
+mxc_free_frames	mxc_v4l2_capture.c	/^ static void mxc_free_frames(cam_data *cam) $/;"	f	file:
+mxc_mmap	mxc_v4l2_capture.c	/^ static int mxc_mmap(struct file *file, struct vm_area_struct *vma) $/;"	f	file:
+mxc_poll	mxc_v4l2_capture.c	/^ static unsigned int mxc_poll(struct file *file, struct poll_table_struct *wait) $/;"	f	file:
+mxc_streamoff	mxc_v4l2_capture.c	/^ static int mxc_streamoff(cam_data *cam) $/;"	f	file:
+mxc_streamon	mxc_v4l2_capture.c	/^ static int mxc_streamon(cam_data *cam) $/;"	f	file:
+mxc_v4l2_buffer_status	mxc_v4l2_capture.c	/^ static int mxc_v4l2_buffer_status(cam_data *cam, struct v4l2_buffer *buf) $/;"	f	file:
+mxc_v4l2_devices	mxc_v4l2_capture.c	/^ static struct platform_device mxc_v4l2_devices = { $/;"	v	typeref:struct:platform_device	file:
+mxc_v4l2_driver	mxc_v4l2_capture.c	/^ static struct platform_driver mxc_v4l2_driver = { $/;"	v	typeref:struct:platform_driver	file:
+mxc_v4l2_g_ctrl	mxc_v4l2_capture.c	/^ static int mxc_v4l2_g_ctrl(cam_data *cam, struct v4l2_control *c) $/;"	f	file:
+mxc_v4l2_g_fmt	mxc_v4l2_capture.c	/^ static int mxc_v4l2_g_fmt(cam_data *cam, struct v4l2_format *f) $/;"	f	file:
+mxc_v4l2_g_std	mxc_v4l2_capture.c	/^ static int mxc_v4l2_g_std(cam_data *cam, v4l2_std_id *e) $/;"	f	file:
+mxc_v4l2_int_device	mxc_v4l2_capture.c	/^ static struct v4l2_int_device mxc_v4l2_int_device = { $/;"	v	typeref:struct:v4l2_int_device	file:
+mxc_v4l2_master	mxc_v4l2_capture.c	/^ static struct v4l2_int_master mxc_v4l2_master = { $/;"	v	typeref:struct:v4l2_int_master	file:
+mxc_v4l2_master_attach	mxc_v4l2_capture.c	/^ static int mxc_v4l2_master_attach(struct v4l2_int_device *slave) $/;"	f	file:
+mxc_v4l2_master_detach	mxc_v4l2_capture.c	/^ static void mxc_v4l2_master_detach(struct v4l2_int_device *slave) $/;"	f	file:
+mxc_v4l2_resume	mxc_v4l2_capture.c	/^ static int mxc_v4l2_resume(struct platform_device *pdev) $/;"	f	file:
+mxc_v4l2_s_ctrl	mxc_v4l2_capture.c	/^ static int mxc_v4l2_s_ctrl(cam_data *cam, struct v4l2_control *c) $/;"	f	file:
+mxc_v4l2_s_fmt	mxc_v4l2_capture.c	/^ static int mxc_v4l2_s_fmt(cam_data *cam, struct v4l2_format *f) $/;"	f	file:
+mxc_v4l2_s_param	mxc_v4l2_capture.c	/^ static int mxc_v4l2_s_param(cam_data *cam, struct v4l2_streamparm *parm) $/;"	f	file:
+mxc_v4l2_s_std	mxc_v4l2_capture.c	/^ static int mxc_v4l2_s_std(cam_data *cam, v4l2_std_id e) $/;"	f	file:
+mxc_v4l2_suspend	mxc_v4l2_capture.c	/^ static int mxc_v4l2_suspend(struct platform_device *pdev, pm_message_t state) $/;"	f	file:
+mxc_v4l_close	mxc_v4l2_capture.c	/^ static int mxc_v4l_close(struct file *file) $/;"	f	file:
+mxc_v4l_do_ioctl	mxc_v4l2_capture.c	/^ static long mxc_v4l_do_ioctl(struct file *file, $/;"	f	file:
+mxc_v4l_dqueue	mxc_v4l2_capture.c	/^ static int mxc_v4l_dqueue(cam_data *cam, struct v4l2_buffer *buf) $/;"	f	file:
+mxc_v4l_fops	mxc_v4l2_capture.c	/^ static struct v4l2_file_operations mxc_v4l_fops = { $/;"	v	typeref:struct:v4l2_file_operations	file:
+mxc_v4l_ioctl	mxc_v4l2_capture.c	/^ static long mxc_v4l_ioctl(struct file *file, unsigned int cmd, $/;"	f	file:
+mxc_v4l_open	mxc_v4l2_capture.c	/^ static int mxc_v4l_open(struct file *file) $/;"	f	file:
+mxc_v4l_overlay_setup	mxc_v4l2_overlay.c	/^				mxc_v4l_overlay_setup(struct v4l2_format *fmt)$/;"	f
+mxc_v4l_overlay_test	mxc_v4l2_overlay.c	/^mxc_v4l_overlay_test(int timeout)$/;"	f
+mxc_v4l_read	mxc_v4l2_capture.c	/^ static ssize_t mxc_v4l_read(struct file *file, char *buf, size_t count, $/;"	f	file:
+mxc_v4l_template	mxc_v4l2_capture.c	/^ static struct video_device mxc_v4l_template = { $/;"	v	typeref:struct:video_device	file:
+mxcfb_alt_buffer_data	include/mxcfb.h	/^struct mxcfb_alt_buffer_data {$/;"	s
+mxcfb_color_key	include/mxcfb.h	/^struct mxcfb_color_key {$/;"	s
+mxcfb_csc_matrix	include/mxcfb.h	/^struct mxcfb_csc_matrix {$/;"	s
+mxcfb_gamma	include/mxcfb.h	/^struct mxcfb_gamma {$/;"	s
+mxcfb_gbl_alpha	include/mxcfb.h	/^struct mxcfb_gbl_alpha {$/;"	s
+mxcfb_loc_alpha	include/mxcfb.h	/^struct mxcfb_loc_alpha {$/;"	s
+mxcfb_pos	include/mxcfb.h	/^struct mxcfb_pos {$/;"	s
+mxcfb_rect	include/mxcfb.h	/^struct mxcfb_rect {$/;"	s
+mxcfb_update_data	include/mxcfb.h	/^struct mxcfb_update_data {$/;"	s
+mxcfb_update_marker_data	include/mxcfb.h	/^struct mxcfb_update_marker_data {$/;"	s
+mxcfb_waveform_modes	include/mxcfb.h	/^struct mxcfb_waveform_modes {$/;"	s
+n_buffers	test.c	/^static unsigned int     n_buffers;$/;"	v	file:
+name	mxc_v4l2_capture.c	/^ 	char name[16];		\/*!< Name (e.g., "NTSC", "PAL", etc.) *\/ $/;"	m	struct:__anon2	file:
+open_device	test.c	/^static void open_device(void)$/;"	f	file:
+out_buf	test.c	/^static int              out_buf;$/;"	v	file:
+param	include/mxcfb.h	/^	int param[5][3];$/;"	m	struct:mxcfb_csc_matrix
+phys_addr	include/mxcfb.h	/^	__u32 phys_addr;$/;"	m	struct:mxcfb_alt_buffer_data
+print_pixelformat	mxc_v4l2_overlay.c	/^static void print_pixelformat(char *prefix, int val)$/;"	f	file:
+process_cmdline	mxc_v4l2_overlay.c	/^		int process_cmdline(int argc, char **argv)$/;"	f
+process_image	test.c	/^static void process_image(const void *p, int size)$/;"	f	file:
+raw_height	mxc_v4l2_capture.c	/^ 	u16 raw_height;		\/*!< Raw height. *\/ $/;"	m	struct:__anon2	file:
+raw_width	mxc_v4l2_capture.c	/^ 	u16 raw_width;		\/*!< Raw width. *\/ $/;"	m	struct:__anon2	file:
+read_frame	test.c	/^static int read_frame(void)$/;"	f	file:
+sdj_cmd	mxc_v4l2_overlay.c	/^				sdj_cmd(int fd,fd_set fds1,int stv1,int utv2){$/;"	f
+short_options	test.c	/^static const char short_options[] = "d:hmruofc:";$/;"	v	file:
+slopek	include/mxcfb.h	/^	int slopek[16];$/;"	m	struct:mxcfb_gamma
+start	test.c	/^        void   *start;$/;"	m	struct:buffer	file:
+start_capturing	test.c	/^static void start_capturing(void)$/;"	f	file:
+start_preview	mxc_v4l2_capture.c	/^ static int start_preview(cam_data *cam) $/;"	f	file:
+stop_capturing	test.c	/^static void stop_capturing(void)$/;"	f	file:
+stop_preview	mxc_v4l2_capture.c	/^ static int stop_preview(cam_data *cam) $/;"	f	file:
+temp	include/mxcfb.h	/^	int temp;$/;"	m	struct:mxcfb_update_data
+top	include/mxcfb.h	/^	__u32 top;$/;"	m	struct:mxcfb_rect
+uninit_device	test.c	/^static void uninit_device(void)$/;"	f	file:
+update_marker	include/mxcfb.h	/^	__u32 update_marker;$/;"	m	struct:mxcfb_update_data
+update_marker	include/mxcfb.h	/^	__u32 update_marker;$/;"	m	struct:mxcfb_update_marker_data
+update_mode	include/mxcfb.h	/^	__u32 update_mode;$/;"	m	struct:mxcfb_update_data
+update_region	include/mxcfb.h	/^	struct mxcfb_rect update_region;$/;"	m	struct:mxcfb_update_data	typeref:struct:mxcfb_update_data::mxcfb_rect
+usage	test.c	/^static void usage(FILE *fp, int argc, char **argv)$/;"	f	file:
+v4l2_id	mxc_v4l2_capture.c	/^ 	int v4l2_id;		\/*!< Video for linux ID. *\/ $/;"	m	struct:__anon2	file:
+v4l_capture	mxc_v4l2_overlay.c	/^char v4l_capture[100] = "\/dev\/mxc_v4l2";$/;"	v
+v4l_device	mxc_v4l2_overlay.c	/^char v4l_device[100] = "\/dev\/video0";$/;"	v
+valid_mode	mxc_v4l2_capture.c	/^ static inline int valid_mode(u32 palette) $/;"	f	file:
+verify_preview	mxc_v4l2_capture.c	/^ static int verify_preview(cam_data *cam, struct v4l2_window *win) $/;"	f	file:
+video_fmt_idx	mxc_v4l2_capture.c	/^ } video_fmt_idx; $/;"	t	typeref:enum:__anon1	file:
+video_fmt_t	mxc_v4l2_capture.c	/^ } video_fmt_t; $/;"	t	typeref:struct:__anon2	file:
+video_fmts	mxc_v4l2_capture.c	/^ static video_fmt_t video_fmts[] = { $/;"	v	file:
+video_index	mxc_v4l2_capture.c	/^ static video_fmt_idx video_index = TV_NOT_LOCKED; $/;"	v	file:
+video_nr	mxc_v4l2_capture.c	/^ static int video_nr = -1; $/;"	v	file:
+waveform_mode	include/mxcfb.h	/^	__u32 waveform_mode;$/;"	m	struct:mxcfb_update_data
+width	include/mxcfb.h	/^	__u32 width;	\/* width of entire buffer *\/$/;"	m	struct:mxcfb_alt_buffer_data
+width	include/mxcfb.h	/^	__u32 width;$/;"	m	struct:mxcfb_rect
+x	include/mxcfb.h	/^	__u16 x;$/;"	m	struct:mxcfb_pos
+xioctl	test.c	/^static int xioctl(int fh, int request, void *arg)$/;"	f	file:
+y	include/mxcfb.h	/^	__u16 y;$/;"	m	struct:mxcfb_pos
